@@ -1,0 +1,110 @@
+.frame {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px  rgba(0, 0, 0, 0.3);
+    background: #43389F;
+    background: linear-gradient( bottom left,#43389F 0%, #4ec6ca 100%);
+    background: -moz-linear-gradient(bottom left,#43389F 0%, #4ec6ca 100%);
+    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);*/
+}
+
+.center {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    background: #43389F;
+    background: linear-gradient( bottom left,#43389F 0%, #4ec6ca 100%);
+    background: -moz-linear-gradient(bottom left,#43389F 0%, #4ec6ca 100%);
+    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);
+}
+
+.one-one {
+    position: absolute;
+    top: -60px;
+    bottom: 20%;
+    left: -190px;
+    right: 0;
+    margin: auto;
+    height: 40px;
+    width: 20px;
+    background-color: white;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.one-two {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 20%;
+    left: -170px;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    width: 20px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zero-one,.zero-two {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 20%;
+    left: -60px;
+    right: 0;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    border: 20px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zero-two {
+    z-index: 1;
+    transform: translate(95px);
+}
+
+.containerText {
+    position: absolute;
+    left: 25%;
+    top: 51%;
+}
+
+.big {
+    z-index: 20;
+    display: block;
+    font-size: 82px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.small {
+    z-index: 20;
+    display: block; 
+    font-size: 23px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    letter-spacing: .04em;
+  }
