@@ -66,7 +66,7 @@
     z-index: 2;
     top: 0;
     bottom: 20%;
-    left: -60px;
+    left: -70px;
     right: 0;
     margin: auto;
     height: 60px;
@@ -78,7 +78,7 @@
 
 .zero-two {
     z-index: 1;
-    transform: translate(95px);
+    transform: translate(90px);
 }
 
 .containerText {
