@@ -5,19 +5,6 @@
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 400px;
-    margin-top: -200px;
-    margin-left: -200px;
-    border-radius: 2px;
-    box-shadow: 1px 2px 10px 0px  rgba(0, 0, 0, 0.3);
-    background: #43389F;
-    background: linear-gradient( bottom left,#43389F 0%, #4ec6ca 100%);
-    background: -moz-linear-gradient(bottom left,#43389F 0%, #4ec6ca 100%);
-    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);*/
 }
 
 .center {
